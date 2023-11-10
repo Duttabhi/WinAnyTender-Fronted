@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">    <!-- Custom CSS -->
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="src\custom.css" type="text/css"> -->
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+
+    <!-- Header Section -->
+    <header class="header py-1 text-white text-center" style="background: linear-gradient(60deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);font-family:Arial">
+      <div class="mb-3 row text-center">
+        <div class="col-sm-4">
+          <img src="winanytender-logo.png" alt="Logo" style="max-width:50%;border-radius: 0%;" />
+        </div>
+        <div class="col-sm-4">
+          <h2 style="color:black;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><p>&nbsp;</p>Business Capability</p><p>Statement Writer</p></h2>
+        </div>        
+        <div class="col-sm-4">
+          <p>&nbsp;</p>
+          <a href="https://winanytender.com/"><button style="background-color: transparent;box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);">Home</button></a>
+          <a href="https://winanytender.com/about-us/"><button style="background-color: transparent;box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);">About Us</button></a>
+          <a href="https://winanytender.com/service/"><button style="background-color: transparent;box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);">Services</button></a>
+          <a href="https://winanytender.com/contact-us/"><button style="background-color: transparent;box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);">Contact Us</button></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main App -->    
+    <div id="app"></div>
+
+    <!-- Footer Section -->
+    <footer class="footer bg-dark py-3 text-white text-center" style="margin-top: 5%;">
+      <div class="mb-3 row">
+        <div class="col-sm-4">
+          <img src="winanytender.png" alt="Logo" style="max-width:50%;border-radius: 0%;" />
+        </div>        
+        <div class="col-sm-4">
+          <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p class="text-center">&copy Win Any Tender, 2023. All rights reserved.</p>
+        </div>
+        <div class="col-sm-4">
+          <table class="text-left">
+            <tr><td><b>CONTACT</b></td></tr>
+            <tr><td>tenders@winanytender.com</td></tr>
+            <tr><td>+61 404 165 016</td></tr>
+            <tr><td>Address: S101/76 Agincourt Road,</td></tr>
+            <tr><td>Marsfield NSW 2122</td></tr>
+            <tr>
+              <td><a href="https://www.facebook.com/winnanytender1" class="fa fa-facebook" style="background: #3B5998;color: white;"></a>
+                <a href="https://www.linkedin.com/company/win-any-tender/" class="fa fa-linkedin" style="background: #007bb5;color: white;"></a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and any additional scripts if needed -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
+    <!-- built files will be auto injected -->
+  </body>
+  <style>
+    .fa {
+      padding: 5%;
+      font-size: 100%;
+      width: 20%;
+      text-decoration: none;
+      margin: 5% 2%;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    button:hover{
+      color: blue;
+    }
+  </style>
+</html>
